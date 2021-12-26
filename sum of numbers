@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std; 
+
+int main()
+{
+	int a,b,sum;
+    // prints hello world
+     cout<<"Hello freaky!"<<endl;
+     cout<<"Enter the two numbers"<<endl;
+     cin>>a>>b;
+     sum=a+b;
+     cout<<"addition is"<<endl<<sum;
+     
+    return 0;
+}
