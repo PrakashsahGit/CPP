@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int age;
+	cout<<"enter your age"<<endl;
+	cin>>age;
+	if(age>=12 && age<=50){
+		cout<<"your are young"<<endl;
+		
+	}
+	else{
+		cout<<"You are not young"<<endl;
+	}
+	if(age>12 || age<50){
+		cout<<"Eligible for offer"<<endl;
+	}
+	else{
+		cout<<"Not eligible for offer"<<endl;
+	}
+	return 0;
+}
